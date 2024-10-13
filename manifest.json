@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "ephemeraltabs",
+  "version": "1.0",
+
+  "description": "ephemeraltabs is a lightweight extension where tabs will automatically close after a set amount of time.",
+  "homepage_url": "https://github.com/paulkoehlerdev/ephemeraltabs",
+
+  "icons": {
+    "48": "icons/ephemeraltabs-48.png"
+  },
+
+  "permissions": [
+    "tabHide",
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["background_scripts/ephemeraltabs.js"],
+    "persistent": false
+  }
+}
